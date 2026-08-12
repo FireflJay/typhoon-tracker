@@ -1,11 +1,13 @@
 ---
 name: typhoon-tracker
 description: "台风实时追踪与影响研判。当用户询问台风路径、登陆预测、风雨影响、出行安全、交通停运、活动能否举办等问题时加载。覆盖数据源体系、预测变化规律、影响评估公式、报告模板和决策框架。适用于西北太平洋台风逼近华东沿海的场景。"
-version: 1.1.0
+version: 1.1.1
 category: 天气气象
 author: typhoon-tracker
 platforms: [WorkBuddy, OpenClaw, Claude Code, Cursor]
 license: MIT
+source: https://github.com/FireflJay/typhoon-tracker
+homepage: https://github.com/FireflJay/typhoon-tracker
 trigger:
   - 台风路径/登陆预测/强度变化查询
   - 台风期间出行/活动可行性评估
